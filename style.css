@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    color:#31353e;
+}
+
+
+/* this is a header part start */
+
+.maincontainer-header {
+    padding:30px 0;
+    color:#edeff1;
+}
+
+.header-container {
+    width:1100px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    width:30%;
+    float: left;
+    
+}
+.logo h1{
+    font-size: 36px;
+    color: #60646b;
+    
+}
+.logo p{
+    font-size: 16px;
+    color:#dd4b2b;
+}
+
+
+.menu-bar {
+    width:70%;
+    float: left;
+    
+}
+.menu-bar ul{
+    margin:0;
+    padding:0;
+    text-align: right;
+    
+    
+}
+.menu-bar ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+.menu-bar ul li a{
+    text-decoration:none;
+    display:block;
+    font-size: 18px;
+    padding: 20px 15px;
+    color:#60646b;
+    
+    
+}
+.menu-bar ul li a:hover{
+    padding:10px 10px;
+    border-radius: 20px;
+    background-color: darkorange;
+    display: block;
+    color:#edeff1;
+}
+
+/* this is a head container part end  */
+
+/*  this is a banner part start  */
+
+.main-container1 {
+    background: url('image/Panakeia_template-Symu_co.jpg');
+    height:1220px;
+}
+
+.container-banner {
+    width:1000px;
+    margin:0 auto;
+}
+
+.text-header {
+    text-align: center;
+    padding-top: 400px;
+}
+.text-header h1{
+    color:#ffffff;
+    font-size: 40px;
+    font-family:  'Roboto Slab', serif;
+    font-weight:100;
+    
+}
+.text-header p{
+    color:#ffffff;
+    font-size: 20px;
+    font-family:  'Roboto Slab', serif;
+    font-weight:100;
+    
+}
+
+.picture-item3 {
+    padding-top: 100px;
+}
+
+.picture1 {
+    width:33.33%;
+    height:400px;
+    float: left;
+    text-align: center;
+    padding-left: 40px;
+}
+.picture1 h3{
+    color:#ffffff;
+    font-size: 30px;
+    padding:20px 0;
+    
+}
+.picture1 p{
+    color:#ffffff;
+    font-size: 13px;
+    
+}
+.read-more{
+    text-align: center;
+}
+.read-more a{
+    padding: 25px 80px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    color:#612316;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: font-family: 'Roboto Slab', serif;
+    
+}
+
+/* this is a banner part end */
+
+.main-container2 {
+    background-color: #edeff1;
+}
+
+.container2 {
+    width:1100px;
+    height:750px;
+    margin:0 auto;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.container2 h1{
+    padding:70px 0;
+    font-size: 30px;
+    color:#31353e;
+    
+}
+
+.our-container {
+}
+.our-container h2{
+    font-size: 24px;
+    color:#31353e;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    
+}
+.our-container p{
+    
+}
+.our-container a{
+   
+    
+}
+
+.our-picture{
+    width:31%;
+    height:500px;
+    float: left;
+    margin-left: 20px;
+}
+.all-picture1{
+    background: url('image/our-picture1.jpg');
+    width:330px;
+    height: 250px;
+    
+}
+.all-picture2{
+    background: url('image/our-picture2.jpg');
+    width:330px;
+    height: 250px;
+    
+}
+.all-picture3{
+    background: url('image/our-picture3.jpg');
+    width:330px;
+    height: 250px;
+    
+}
+.read-more{
+    padding-top: 45px;
+    
+}
+.read-more a{
+    padding:18px 40px;
+    color:#4e5159;
+    background-color: #ffffff;
+    text-decoration:none;
+    margin-top: 35px;
+    font-size: 15px;
+    
+}
+
+
+
+
+
+/* end  */
+
+
+/* this is a newslatter container part start */
+
+.main-container3 {
+    background: url('image/news-latter.jpg');
+}
+
+.newslatter-container3 {
+    text-align:center;
+    height:360px;
+    width:600px;
+    margin:0 auto;
+    
+}
+.newslatter-container3 h1{
+    padding-top: 80px;
+    font-size: 30px;
+    color:#ffffff;
+    
+}
+.newslatter-container3 p{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom:40px;
+    
+}
+
+.email-signup {
+    position: relative;
+    
+}
+.email-signup input{
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    background: transparent;
+    border: 3px solid #c9cbc5;
+    position:relative;
+}
+.newslatter-container3 input[type="submit"]{
+    width: 200px;
+    height: 51px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #7d534c;
+    position: absolute;
+    top: 50%;
+    left: 72%;
+    transform: translate(-50%,-50%);
+}
+
+ /* this is a newslatter container part end */
+
+
+ /* this is a ipsam dolor block start */
+
+
+.main-container4 {
+}
+
+.ipsam-container {
+    width:1100px;
+    overflow:hidden;
+    margin:0 auto;
+}
+
+.ipsam {
+    width:50%;
+    height:400px;
+    float:left;
+        
+}
+.margin-top{
+    margin-top:60px;
+}
+.margin-top h3{
+    font-size: 30px;
+    color:#191b29;
+    
+}
+.margin-top p{
+    font-size: 16px;
+    color:#191b29;
+    margin-top: 20px;
+    
+}
+.button{
+    padding-top: 50px;
+}
+.button a{
+    border: black;
+    color:#fdf3f1;
+    background-color: #dd4b2b;
+    padding: 25px 90px;
+    border-radius: 50px;
+    text-decoration:none;
+}
+.button2 a{
+    background-color: #4b4e73;
+    
+}
+
+/* end */
+/* start */
+
+.main-container5 {
+    background-color: orange;
+}
+
+.horizontal-container {
+    width:1100px;
+    margin:0 auto;
+    overflow:hidden;
+    height:350px;
+}
+
+.block3 {
+    padding-top: 80px;
+}
+
+.block-all {
+    width:33.33%;
+    float:left;
+    text-align: center;
+    
+    
+}
+.block-all p{
+    color:#f5d6c3;
+    font-size:18px;
+    font-family: sans-serif;
+    padding-top: 8px;
+    
+}
+
+/*end */
+
+/* start */
+
+
+.footer-maincontainer {
+    background: url('image/footer.jpg');
+}
+
+.footer-container {
+    height:270px;
+    width:1100px;
+    overflow:hidden;
+    margin:0 auto;
+    text-align: center;
+}
+.height{
+    padding-top: 80px;
+}
+.footer-container p{
+    padding-top: 10px;
+    font-size: 17px;
+    color:#8f828f;
+}
+
+/* end */
+/* end */
